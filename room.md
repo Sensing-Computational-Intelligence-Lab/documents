@@ -8,7 +8,7 @@
 ### \<player\> players[] 玩家列表
 
 ## 成员方法
-### init(class boardtype, int totaltime)
+### init(class boardtype, tuple (int width, int height), int totaltime)
 初始化房间
 
 #### 参数
