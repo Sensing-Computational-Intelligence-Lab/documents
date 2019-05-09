@@ -5,7 +5,7 @@
 ### \<board\> __board 棋盘
 
 ## 公有变量
-### \<player\> players[] 玩家列表
+### \<dict\> players 玩家列表
 
 ## 成员方法
 ### init(class boardtype, tuple (int width, int height), int totaltime)
@@ -27,11 +27,11 @@
 #### 返回值
 \<string\> 给这个玩家分配的ID，例如‘A’，‘B’，‘C’
 
-### removeplayer(object player)
+### removeplayer(string id)
 删除玩家
 
 #### 参数
-\<object\> player 传入的是玩家的这个对象
+\<string\> player 传入的是玩家的这个ID
 
 #### 返回值
 \<int\> 状态： 0 失败，1 成功
